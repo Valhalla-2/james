@@ -1,0 +1,36 @@
+.home {
+    min-height: 100vh;
+    padding-top: 40vh;
+    overflow-x: hidden;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(116 116 116 / 61%);
+
+    .intro {
+        font-weight: 100;
+        opacity: 0.5;
+        }
+
+
+    &__name {
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #FFF !important;
+        font-family: map-get($font-family , dancing__script ) ;
+        font-weight: map-get($font-weight, regular );
+
+        &__last {
+            color: $white;
+            font-weight: map-get($font-weight, regular );
+       
+        }
+    }
+
+    .occupation {
+        font-size: 1rem;
+        font-weight: 100;
+        font-family: monospace;
+    }
+    
+}
