@@ -160,7 +160,7 @@ header {
 }
 
 .social__icon {
-  margin: 75% 0 0.5rem 0;
+  margin: 90% 0 0.5rem 0;
 }
 .social__icon a {
   padding: 0.4rem;
@@ -169,4 +169,30 @@ header {
 }
 .social__icon a:hover {
   color: #ff652f;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.contact {
+  min-height: 100vh;
+  padding-top: 40vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contact__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  font-size: 1.5rem;
+}
+.contact .social__icon {
+  position: initial;
+  margin-top: 2rem;
+}/*# sourceMappingURL=contact.css.map */
